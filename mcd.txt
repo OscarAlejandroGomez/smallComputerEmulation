@@ -1,0 +1,15 @@
+mcd: Entrada a
+     Entrada b
+     Cargar A,a
+     Cargar B,b
+bucle: Copiar A,C
+     Restar C,B 
+     SaltarSiCero fin
+     SaltarSiNeg menor
+     Restar A,B
+     Saltar bucle
+menor: Restar B,A 
+     Saltar bucle
+fin: Almacenar A,m
+     Salida m
+Parar

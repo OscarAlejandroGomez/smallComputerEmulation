@@ -1,0 +1,16 @@
+rec: Entrada a
+    Entrada b
+    Cargar A,a
+    Cargar B,b
+    CargarValor C,1
+    Push A
+bucle: Pop A
+    Copiar B,D
+    Restar D,C
+    SaltarSiNeg fin 
+    Push B
+    Div A,B
+    Saltar bucle
+fin: Almacenar A,m 
+    Salida m 
+    Parar

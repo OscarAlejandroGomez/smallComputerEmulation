@@ -1,0 +1,13 @@
+fac: CargarValor B,1 
+    Entrada a 
+    Cargar A,a 
+    Copiar A,C
+bucle: Copiar A,D 
+    Restar A,B
+    Restar D,B
+    SaltarSiCero fin
+    Mult C,A
+    Saltar bucle
+fin: Almacenar C,m 
+    Salida m 
+    Parar
